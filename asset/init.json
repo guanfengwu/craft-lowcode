@@ -1,0 +1,1358 @@
+{
+  "ROOT": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "40",
+              "40",
+              "40",
+              "40"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "800px",
+          "height": "auto"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "App"
+      },
+      "hidden": false,
+      "nodes": [
+          "r1SSpMKQ38",
+          "kZ759YowUK",
+          "aY488I_FUU"
+      ],
+      "linkedNodes": {}
+  },
+  "r1SSpMKQ38": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "row",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "40",
+              "40",
+              "40",
+              "40"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "40",
+              "0"
+          ],
+          "background": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "100%",
+          "height": "auto"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Introduction"
+      },
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+          "AChE27J6-S",
+          "GMatX4Lypw"
+      ],
+      "linkedNodes": {}
+  },
+  "AChE27J6-S": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "0",
+              "20",
+              "0",
+              "20"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "40%",
+          "height": "100%"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Heading"
+      },
+      "parent": "r1SSpMKQ38",
+      "hidden": false,
+      "nodes": [
+          "PiuTgYn7Th"
+      ],
+      "linkedNodes": {}
+  },
+  "PiuTgYn7Th": {
+      "type": {
+          "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+          "fontSize": "23",
+          "textAlign": "left",
+          "fontWeight": "400",
+          "color": {
+              "r": 92,
+              "g": 90,
+              "b": 90,
+              "a": 1
+          },
+          "margin": [
+              0,
+              0,
+              0,
+              0
+          ],
+          "shadow": 0,
+          "text": "Craft.js is a React framework for building powerful & feature-rich drag-n-drop page editors."
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "AChE27J6-S",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "GMatX4Lypw": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "0",
+              "20",
+              "0",
+              "20"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "60%",
+          "height": "100%"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Description"
+      },
+      "parent": "r1SSpMKQ38",
+      "hidden": false,
+      "nodes": [
+          "YKxXLv8tCA"
+      ],
+      "linkedNodes": {}
+  },
+  "YKxXLv8tCA": {
+      "type": {
+          "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+          "fontSize": "14",
+          "textAlign": "left",
+          "fontWeight": "400",
+          "color": {
+              "r": 92,
+              "g": 90,
+              "b": 90,
+              "a": 1
+          },
+          "margin": [
+              0,
+              0,
+              0,
+              0
+          ],
+          "shadow": 0,
+          "text": "Everything you see here, including the editor, itself is made of React components. Craft.js comes only with the building blocks for a page editor; it provides a drag-n-drop system and handles the way user components should be rendered, updated and moved, among other things. <br> <br> You control the way your editor looks and behave."
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "GMatX4Lypw",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "kZ759YowUK": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "40",
+              "40",
+              "40",
+              "40"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "40",
+              "0"
+          ],
+          "background": {
+              "r": 39,
+              "g": 41,
+              "b": 41,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "100%",
+          "height": "auto"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "ComplexSection"
+      },
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+          "QjkAWJVZEn"
+      ],
+      "linkedNodes": {}
+  },
+  "QjkAWJVZEn": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "row",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 76,
+              "g": 78,
+              "b": 78,
+              "a": 0
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "100%",
+          "height": "auto"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Wrapper"
+      },
+      "parent": "kZ759YowUK",
+      "hidden": false,
+      "nodes": [
+          "l00CI2Rfqu",
+          "MvoxKXa-UC"
+      ],
+      "linkedNodes": {}
+  },
+  "l00CI2Rfqu": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "row",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "350px",
+          "height": "250px"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Square"
+      },
+      "parent": "QjkAWJVZEn",
+      "hidden": false,
+      "nodes": [
+          "a1VUM_sSrT"
+      ],
+      "linkedNodes": {}
+  },
+  "a1VUM_sSrT": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "fillSpace": "no",
+          "padding": [
+              "10",
+              "20",
+              "10",
+              "20"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 76,
+              "g": 78,
+              "b": 78,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 25,
+          "radius": 0,
+          "width": "90%",
+          "height": "90%"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Outer"
+      },
+      "parent": "l00CI2Rfqu",
+      "hidden": false,
+      "nodes": [
+          "zYdpVPG1JV"
+      ],
+      "linkedNodes": {}
+  },
+  "zYdpVPG1JV": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "fillSpace": "no",
+          "padding": [
+              "10",
+              "20",
+              "10",
+              "20"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 76,
+              "g": 78,
+              "b": 78,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 50,
+          "radius": 0,
+          "width": "80%",
+          "height": "80%"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Middle"
+      },
+      "parent": "a1VUM_sSrT",
+      "hidden": false,
+      "nodes": [
+          "Q2WWCY41bq"
+      ],
+      "linkedNodes": {}
+  },
+  "Q2WWCY41bq": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "center",
+          "justifyContent": "center",
+          "fillSpace": "no",
+          "padding": [
+              "10",
+              "20",
+              "10",
+              "20"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 76,
+              "g": 78,
+              "b": 78,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 50,
+          "radius": 0,
+          "width": "60%",
+          "height": "60%"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Inner"
+      },
+      "parent": "zYdpVPG1JV",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "MvoxKXa-UC": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "yes",
+          "padding": [
+              "0",
+              "0",
+              "0",
+              "20"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "55%",
+          "height": "100%"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Content"
+      },
+      "parent": "QjkAWJVZEn",
+      "hidden": false,
+      "nodes": [
+          "R-imWbZdJE",
+          "eUk2rBmzIA"
+      ],
+      "linkedNodes": {}
+  },
+  "R-imWbZdJE": {
+      "type": {
+          "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+          "fontSize": "20",
+          "textAlign": "left",
+          "fontWeight": "500",
+          "color": {
+              "r": "255",
+              "g": "255",
+              "b": "255",
+              "a": "1"
+          },
+          "margin": [
+              "0",
+              "0",
+              "18",
+              "0"
+          ],
+          "shadow": 0,
+          "text": "Design complex components"
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "MvoxKXa-UC",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "eUk2rBmzIA": {
+      "type": {
+          "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+          "fontSize": "14",
+          "textAlign": "left",
+          "fontWeight": "400",
+          "color": {
+              "r": "255",
+              "g": "255",
+              "b": "255",
+              "a": "0.8"
+          },
+          "margin": [
+              0,
+              0,
+              0,
+              0
+          ],
+          "shadow": 0,
+          "text": "You can define areas within your React component which users can drop other components into. <br/><br />You can even design how the component should be edited — content editable, drag to resize, have inputs on toolbars — anything really."
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "MvoxKXa-UC",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "aY488I_FUU": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "40",
+              "40",
+              "40",
+              "40"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "40",
+              "0"
+          ],
+          "background": {
+              "r": 234,
+              "g": 245,
+              "b": 245,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "100%",
+          "height": "auto"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Programmatic"
+      },
+      "parent": "ROOT",
+      "hidden": false,
+      "nodes": [
+          "E-aFhcpJWz",
+          "ut-f4g7lxt"
+      ],
+      "linkedNodes": {}
+  },
+  "E-aFhcpJWz": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "margin": [
+              "0,",
+              "0",
+              "20",
+              "0"
+          ],
+          "background": {
+              "r": 76,
+              "g": 78,
+              "b": 78,
+              "a": 0
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "100%",
+          "height": "auto"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Heading"
+      },
+      "parent": "aY488I_FUU",
+      "hidden": false,
+      "nodes": [
+          "QcW1T-8VUw",
+          "Tx7n5ryJUI"
+      ],
+      "linkedNodes": {}
+  },
+  "QcW1T-8VUw": {
+      "type": {
+          "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+          "fontSize": "23",
+          "textAlign": "left",
+          "fontWeight": "500",
+          "color": {
+              "r": "46",
+              "g": "47",
+              "b": "47",
+              "a": "1"
+          },
+          "margin": [
+              0,
+              0,
+              0,
+              0
+          ],
+          "shadow": 0,
+          "text": "Programmatic drag & drop"
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "E-aFhcpJWz",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "Tx7n5ryJUI": {
+      "type": {
+          "resolvedName": "Text"
+      },
+      "isCanvas": false,
+      "props": {
+          "fontSize": "14",
+          "textAlign": "left",
+          "fontWeight": "400",
+          "color": {
+              "r": 92,
+              "g": 90,
+              "b": 90,
+              "a": 1
+          },
+          "margin": [
+              0,
+              0,
+              0,
+              0
+          ],
+          "shadow": 0,
+          "text": "Govern what goes in and out of your components"
+      },
+      "displayName": "Text",
+      "custom": {},
+      "parent": "E-aFhcpJWz",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "ut-f4g7lxt": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "row",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "margin": [
+              "30",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 76,
+              "g": 78,
+              "b": 78,
+              "a": 0
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "100%",
+          "height": "auto"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Content"
+      },
+      "parent": "aY488I_FUU",
+      "hidden": false,
+      "nodes": [
+          "xQx1u7Vt_7",
+          "7RWBocPFa2"
+      ],
+      "linkedNodes": {}
+  },
+  "xQx1u7Vt_7": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "row",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "0",
+              "20",
+              "0",
+              "0"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "45%",
+          "height": "auto"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Left"
+      },
+      "parent": "ut-f4g7lxt",
+      "hidden": false,
+      "nodes": [
+          "h4KTo9_u05"
+      ],
+      "linkedNodes": {}
+  },
+  "h4KTo9_u05": {
+      "type": {
+          "resolvedName": "Custom1"
+      },
+      "isCanvas": false,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "20",
+              "20",
+              "20",
+              "20"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 119,
+              "g": 219,
+              "b": 165,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 40,
+          "radius": 0,
+          "width": "100%",
+          "height": "auto"
+      },
+      "displayName": "Custom 1",
+      "custom": {},
+      "parent": "xQx1u7Vt_7",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {
+          "wow": "9NqjpxvGyt"
+      }
+  },
+  "7RWBocPFa2": {
+      "type": {
+          "resolvedName": "Container"
+      },
+      "isCanvas": true,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "0",
+              "0",
+              "0",
+              "20"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 0
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 0,
+          "radius": 0,
+          "width": "55%",
+          "height": "auto"
+      },
+      "displayName": "Container",
+      "custom": {
+          "displayName": "Right"
+      },
+      "parent": "ut-f4g7lxt",
+      "hidden": false,
+      "nodes": [
+          "JXekEl0ZuD",
+          "9uMlCKf0yR"
+      ],
+      "linkedNodes": {}
+  },
+  "JXekEl0ZuD": {
+      "type": {
+          "resolvedName": "Custom2"
+      },
+      "isCanvas": false,
+      "props": {
+          "flexDirection": "row",
+          "alignItems": "center",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "0",
+              "0",
+              "0",
+              "20"
+          ],
+          "margin": [
+              "0",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 108,
+              "g": 126,
+              "b": 131,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 40,
+          "radius": 0,
+          "width": "100%",
+          "height": "125px"
+      },
+      "displayName": "Custom 2",
+      "custom": {},
+      "parent": "7RWBocPFa2",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {
+          "wow": "djp7lYAeyl"
+      }
+  },
+  "9uMlCKf0yR": {
+      "type": {
+          "resolvedName": "Custom3"
+      },
+      "isCanvas": false,
+      "props": {
+          "flexDirection": "column",
+          "alignItems": "flex-start",
+          "justifyContent": "flex-start",
+          "fillSpace": "no",
+          "padding": [
+              "20",
+              "20",
+              "20",
+              "20"
+          ],
+          "margin": [
+              "20",
+              "0",
+              "0",
+              "0"
+          ],
+          "background": {
+              "r": 134,
+              "g": 187,
+              "b": 201,
+              "a": 1
+          },
+          "color": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+          },
+          "shadow": 40,
+          "radius": 0,
+          "width": "100%",
+          "height": "auto"
+      },
+      "displayName": "Custom 3",
+      "custom": {},
+      "parent": "7RWBocPFa2",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {
+          "wow": "OF0lfVnNtU"
+      }
+  },
+  "9NqjpxvGyt": {
+      "type": {
+          "resolvedName": "OnlyButtons"
+      },
+      "isCanvas": true,
+      "props": {},
+      "displayName": "OnlyButtons",
+      "custom": {},
+      "parent": "h4KTo9_u05",
+      "hidden": false,
+      "nodes": [
+          "slGZ0-EYWt",
+          "jX6ueGkZqO"
+      ],
+      "linkedNodes": {}
+  },
+  "slGZ0-EYWt": {
+      "type": {
+          "resolvedName": "Button"
+      },
+      "isCanvas": false,
+      "props": {
+          "background": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 0.5
+          },
+          "color": {
+              "r": 92,
+              "g": 90,
+              "b": 90,
+              "a": 1
+          },
+          "buttonStyle": "full",
+          "text": "Button",
+          "margin": [
+              "5",
+              "0",
+              "5",
+              "0"
+          ],
+          "textComponent": {
+              "fontSize": "15",
+              "textAlign": "center",
+              "fontWeight": "500",
+              "color": {
+                  "r": 92,
+                  "g": 90,
+                  "b": 90,
+                  "a": 1
+              },
+              "margin": [
+                  0,
+                  0,
+                  0,
+                  0
+              ],
+              "shadow": 0,
+              "text": "Text"
+          }
+      },
+      "displayName": "Button",
+      "custom": {},
+      "parent": "9NqjpxvGyt",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "jX6ueGkZqO": {
+      "type": {
+          "resolvedName": "Button"
+      },
+      "isCanvas": false,
+      "props": {
+          "background": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 0.5
+          },
+          "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+          },
+          "buttonStyle": "outline",
+          "text": "Button",
+          "margin": [
+              "5",
+              "0",
+              "5",
+              "0"
+          ],
+          "textComponent": {
+              "fontSize": "15",
+              "textAlign": "center",
+              "fontWeight": "500",
+              "color": {
+                  "r": 92,
+                  "g": 90,
+                  "b": 90,
+                  "a": 1
+              },
+              "margin": [
+                  0,
+                  0,
+                  0,
+                  0
+              ],
+              "shadow": 0,
+              "text": "Text"
+          }
+      },
+      "displayName": "Button",
+      "custom": {},
+      "parent": "9NqjpxvGyt",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "djp7lYAeyl": {
+      "type": {
+          "resolvedName": "Custom2VideoDrop"
+      },
+      "isCanvas": true,
+      "props": {},
+      "displayName": "Custom2VideoDrop",
+      "custom": {},
+      "parent": "JXekEl0ZuD",
+      "hidden": false,
+      "nodes": [
+          "_x805-O80r"
+      ],
+      "linkedNodes": {}
+  },
+  "_x805-O80r": {
+      "type": {
+          "resolvedName": "Video"
+      },
+      "isCanvas": false,
+      "props": {
+          "videoId": "IwzUs1IMdyQ"
+      },
+      "displayName": "Video",
+      "custom": {},
+      "parent": "djp7lYAeyl",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  },
+  "OF0lfVnNtU": {
+      "type": {
+          "resolvedName": "Custom3BtnDrop"
+      },
+      "isCanvas": true,
+      "props": {},
+      "displayName": "Custom3BtnDrop",
+      "custom": {},
+      "parent": "9uMlCKf0yR",
+      "hidden": false,
+      "nodes": [
+          "K_357hLJuR"
+      ],
+      "linkedNodes": {}
+  },
+  "K_357hLJuR": {
+      "type": {
+          "resolvedName": "Button"
+      },
+      "isCanvas": false,
+      "props": {
+          "background": {
+              "r": 184,
+              "g": 247,
+              "b": 247,
+              "a": 1
+          },
+          "color": {
+              "r": 92,
+              "g": 90,
+              "b": 90,
+              "a": 1
+          },
+          "buttonStyle": "full",
+          "text": "Button",
+          "margin": [
+              "5",
+              "0",
+              "5",
+              "0"
+          ],
+          "textComponent": {
+              "fontSize": "15",
+              "textAlign": "center",
+              "fontWeight": "500",
+              "color": {
+                  "r": 92,
+                  "g": 90,
+                  "b": 90,
+                  "a": 1
+              },
+              "margin": [
+                  0,
+                  0,
+                  0,
+                  0
+              ],
+              "shadow": 0,
+              "text": "Text"
+          }
+      },
+      "displayName": "Button",
+      "custom": {},
+      "parent": "OF0lfVnNtU",
+      "hidden": false,
+      "nodes": [],
+      "linkedNodes": {}
+  }
+}
